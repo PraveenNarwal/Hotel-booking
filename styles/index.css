@@ -1,17 +1,51 @@
 
-
-.destinationImages{
-    
-    width: 150px;
-    height: 150px;
-    padding: 4%;
-    border-radius: 25%;    
-}
 .imageIndex{
-   
-    margin: 0% 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 4%;
+      
 }
-
+.card-image{
+    border-radius: 25%;
+    position: relative;
+  
+    box-shadow: 10px 10px 10px grey;
+}
+.destinationImages{    
+    width: 150px;
+    height: 150px;    
+    border-radius: 25%;
+    display: block;
+    
+  
+        
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 50%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  
+  /* When you mouse over the container, fade in the overlay title */
+  .card-image:hover .overlay  {
+    opacity: 1;
+  }
+.destinationImages:hover{
+    /* background: rgba(0, 0, 0, 0.5);
+    opacity: 1; */
+}
 .searchBar{
     background-image: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg");
     height: 380px;
@@ -36,4 +70,7 @@
 }
 .content{
     height: 750px;
+}
+input.searchText:focus {
+    outline-width: 0;
 }

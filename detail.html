@@ -14,9 +14,11 @@
                 <a href="login.html" class="loginLink" target="_top">Login</a>
             </header>
             <div class="content">
-                <img class="detailImage" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel"/>
-                <div >
-                    <form action="payment.html" method="get" autocomplete="off" class="bookingForm">
+                <table>
+                    <tr>
+                      <th><img class="detailImage" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel"/>
+                      </th>
+                      <th><form action="payment.html" method="get" autocomplete="off" class="bookingForm">
                         <label for="adults">Adults:</label>
                         <input type="number" name="adults" step="any" min="1" value="1"/><br>
                         <label for="name">Name:</label>
@@ -28,7 +30,10 @@
                         <label for="price">Total:</label>
                         <input type="text" name="price" readonly/><br>
                         <input type="submit" value="Book Now"/>                        
-                    </form>
+                    </form></th>                        
+                    </tr>                   
+                  </table>
+                <div >                    
                     <div class="formDescription">
                     <h2>Radisson Blu Hotel</h2>
                     <p>RATING</p>

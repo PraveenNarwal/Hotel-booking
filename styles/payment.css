@@ -5,19 +5,36 @@
 }
 .payhotel{
     background-color: rgb(132, 136, 139);
-    margin-top: 2%;
+    margin-top: 10%;
     margin-bottom: 2%;
     width: 50%;
-    height: 20%;
+    height: 205px;
     margin-left: auto;
     margin-right: auto;
+}
+.imageList{
+    max-width: 270px;
+    max-height: 300px;
 }
 .detailPayment{
     margin: 2%;
 }
-.borderDetail{
+.image-right{
+    padding-left: 44%;
+    padding-top: 5%;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     border: 1px solid black;
     border-radius: 5px;
     padding: 1% 2%;
-
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: rosybrown;
+}
+.paybutton{
+    padding-right: 20%;
 }

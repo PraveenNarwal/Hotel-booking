@@ -1,19 +1,18 @@
 .imageList{
     height: 200px;
-    width: 250px;
-    
+    width: 250px;   
     
 }
 .listImg{
-    background-color: rgb(132, 136, 139);
+    background-color: lightgrey;
     margin: 2%;
     width: 40%;
+    height: 200px;
+    float: left;
     
 }
-#divImagelist{       
-    display: flex;
-    justify-content: space-between;
-    
+.image-right{
+    padding-left: 50%;
 }
 li{
     display: inline;
