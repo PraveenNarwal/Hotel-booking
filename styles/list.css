@@ -8,4 +8,20 @@
     background-color: rgb(132, 136, 139);
     margin: 2%;
     width: 40%;
+    
+}
+#divImagelist{       
+    display: flex;
+    justify-content: space-between;
+    
+}
+li{
+    display: inline;
+    padding-left: 10px;   
+}
+.listofunorder{
+    text-align: center;
+}
+.content{
+    margin-top: 7%;
 }

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="styles\index.css">
+        <link rel="stylesheet" href="styles/common.css">
         <link rel="stylesheet" href="styles\list.css">
 
     </head>
@@ -10,22 +10,23 @@
             <header class="header">
                 <a href="index.html" target="_top">
                     <img class="logo" src="assests\images\logo.png" alt="logo"/></a>
-                <a href="login.html" target="_top">Login</a>
+                <a href="login.html" class="loginLink" target="_top">Login</a>
             </header>
             <div class="content">
-                <div>
+                <div class="listofunorder">
                     <ul>
-                        <a href="#divImagelist"><li>List View</li></a>
-                        <a href="#mapview"><li>Map View</li></a>
+                        <li><a href="#divImagelist"> <strong>List View</strong></a></li>
+                        <li><a href="#mapview"><strong>Map View</strong></a></li>
                     </ul>
                 </div>
                 <div id="divImagelist">
-                    <a href="detail.html" target="_blank">
+                    
                         <div class="listImg">
+                            <a href="detail.html" target="_blank">
                             <img class="imageList" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="RRadisson Blu Hotel"/>
                             <h3>Raddison blu Hotel</h3>
                             <p>5 Star</p>
-                            <p>New Delhi</p></div></a>
+                            <p>New Delhi</p></a></div>
                     <div class="listImg">
                         <img class="imageList" src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg" alt="The Lalit New Delhi"/>
                         <h3>The Lalit New Delhi</h3>
@@ -47,10 +48,10 @@
             </div>
 
             <footer class="footer">
-                <div>
-                    <a href="contact.html" target="_blank">Contact Us</a>
+                <div class="contactus">
+                    <a href="contact.html" target="_top">Contact Us</a>
                 </div>
-                <div>
+                <div class="socialmedia">
                     <a href="https://www.facebook.com" target="_blank">
                         <img class="socialImage" src="assests/images/facebook.png" alt="facebook" /></a>
                     <a href="https://www.instagram.com" target="_blank">
@@ -58,7 +59,7 @@
                     <a href="https://twitter.com" target="_blank">
                         <img class="socialImage" src="assests/images/twitter.png" alt="Twitter"/></a>                
                 </div>
-                <div>
+                <div class="copyright">
                 &copy 2020 ROOM SEARCH PVT. LTD.
                 </div>
             </footer>
