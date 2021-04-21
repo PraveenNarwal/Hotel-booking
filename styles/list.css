@@ -1,4 +1,11 @@
 .imageList{
     height: 200px;
     width: 250px;
+    
+    
+}
+.listImg{
+    background-color: rgb(132, 136, 139);
+    margin: 2%;
+    width: 40%;
 }

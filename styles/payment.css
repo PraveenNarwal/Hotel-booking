@@ -1,4 +1,23 @@
 .paymentImage{
     height: 500px;
     width: 500px;
+    
+}
+.payhotel{
+    background-color: rgb(132, 136, 139);
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 50%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.detailPayment{
+    margin: 2%;
+}
+.borderDetail{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1% 2%;
+
 }
