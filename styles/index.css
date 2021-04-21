@@ -34,9 +34,15 @@
     font-size: 20px;
     padding: 20px;
     text-align: center;
-  }
-  
-  
+}
+
+.usernamePassword{    
+    text-align: center;
+}
+.loginbutton{
+    padding-right: 50%;
+    text-align: center;
+}
   
   /* When you mouse over the container, fade in the overlay title */
   .card-image:hover .overlay  {
