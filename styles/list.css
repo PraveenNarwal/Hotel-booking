@@ -11,7 +11,9 @@
     float: left;
     
 }
-
+.checked {
+    color: orange;
+  }
 .listImg:hover{
     background-color: rosybrown;
 }

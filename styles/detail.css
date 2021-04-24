@@ -20,7 +20,9 @@ table {
     width: 100%;
     margin-top: 5%;
   }
-  
+  .checked {
+    color: orange;
+  }
   td, th {
     border: 1px solid black;
     text-align: center;
