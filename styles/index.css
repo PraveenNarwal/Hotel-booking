@@ -7,9 +7,8 @@
       
 }
 .card-image{
-    border-radius: 25%;
     position: relative;
-  
+    border-radius: 25%;
     box-shadow: 10px 10px 10px grey;
 }
 .destinationImages{    
@@ -18,10 +17,13 @@
     border-radius: 25%;
     display: block;
     
-  
-        
+}
+.loginbutton{
+    display: flex;
+    margin: auto;
 }
 .middle {
+    padding: 7%;
     position: absolute;
     top: 0;
     left: 0;
@@ -84,11 +86,12 @@
     margin: auto;    
 }
 .viewmore{
+
     display: grid;
     place-items: center;
 }
 .content{
-    height: 750px;
+    height: 900px;
 }
 input.searchText:focus {
     outline-width: 0;
