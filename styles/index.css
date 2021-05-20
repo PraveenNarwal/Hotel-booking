@@ -101,3 +101,6 @@ input.searchText:focus {
 .hideShow {
     width: 100%;
 }
+.card-image:hover{
+    cursor: pointer;
+}

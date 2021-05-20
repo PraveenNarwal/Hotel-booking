@@ -12,3 +12,8 @@ function check(){
     alert("Error Password or Username")
     }
 }
+
+function myfunc(){
+    var loading = document.getElementById("loader");
+    loading.style.display ='none';
+}
