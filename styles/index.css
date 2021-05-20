@@ -89,10 +89,15 @@
 
     display: grid;
     place-items: center;
+    padding-bottom: 10%;
 }
 .content{
-    height: 900px;
+    height: 800px;
 }
 input.searchText:focus {
     outline-width: 0;
+}
+
+.hideShow {
+    width: 100%;
 }

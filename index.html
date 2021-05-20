@@ -15,7 +15,7 @@
         <div class="main">
             <header class="header"> 
                 <img class="logo" src="assests\images\logo.png" alt="logo"/>
-                <button type="button" class="btn btn-light loginLink" data-toggle="modal" data-target="#exampleModal">Login</button>
+                <button type="button" id="buttonlogin" class="btn btn-light loginLink" data-toggle="modal" data-target="#exampleModal">Login</button>
                
                 
 
@@ -45,6 +45,7 @@
                     </div>
                     
                 </div>
+                <div id="hideShow">
                 <div class="imageIndex">
                     <div class="card card-image ">
                         <img class="destinationImages" src="https://media-cdn.tripadvisor.com/media/photo-s/15/4d/46/b8/chennai-madras.jpg" alt="chennai"/>
@@ -62,11 +63,11 @@
                         <img class="destinationImages" src="https://media-cdn.tripadvisor.com/media/photo-s/0c/d2/2f/7a/palace-from-the-outside.jpg" alt="bengluru"/>
                         <div class="middle"><div class="overlay">Bengaluru</div></div>
                     </div>
-                    
                 </div>
-                
+            </div>
+            </div>                
                 <div class="viewmore">
-                    <button type="button" class="btn btn-secondary">Secondary</button>
+                    <button type="button" onclick="myFunction()" class="btn btn-secondary">Secondary</button>
                 </div>
             </div>
             <footer class="footer">
@@ -99,7 +100,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="usernamePassword">
-                        <form action="index.html" method="get" autocomplete="off">
+                        <form name = 'myform' action="index.html" method="get" autocomplete="off">
                             <label for="userName">Username:       </label>
                             <input type="text" name="username" placeholder="Enter Username" required><br>
                             <label for="Password">Password:</label>
@@ -109,7 +110,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">                    
-                        <button type="button" class="btn btn-primary loginbutton">Login</button>                    
+                        <button type="button" data-dismiss="modal" onclick="check()" class="btn btn-primary loginbutton">Login</button>                    
                   
                 </div>
               </div>
@@ -144,5 +145,8 @@
               </div>
             </div>
           </div>
+
+        <script src="scripts\index.js"></script>
+        <script src="scripts\common.js"></script>
     </body>
 </html>

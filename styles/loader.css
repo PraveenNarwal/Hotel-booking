@@ -10,7 +10,7 @@
 	  bottom: 0;
 	  left: 0;
 	  right: 0;
-      -webkit-animation: spin 5s linear infinite; /* Safari */
+      -webkit-animation: spin 5s linear infinite;
       animation: spin 2s linear infinite;
   }
 
